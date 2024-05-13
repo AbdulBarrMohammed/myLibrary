@@ -1,0 +1,130 @@
+
+:root {
+    --body-color: #e2e8f0;
+    --remove-btn-color: hsl(0, 72%, 51%);
+    --read-btn-color: #0ea5e9;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+
+}
+body footer {
+    display: flex;
+    margin-bottom: auto;
+    justify-content: center;
+}
+/* TOP HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+header p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    background-color: var(--read-btn-color);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+
+footer {
+
+}
+
+
+/* Book Shelf */
+
+.book-shelf {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+}
+dialog {
+    border: none;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 5px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+form .checkbox-container {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+}
+
+form p {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+.cancel-button {
+    background-color: var(--remove-btn-color);
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
